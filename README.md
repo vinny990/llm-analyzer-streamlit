@@ -1,31 +1,51 @@
-# LLM Cost & Performance Analyzer
+# 🤖 LLM Cost & Performance Analyzer
 
-This is a **Streamlit web app** that compares multiple Large Language Models (LLMs) like GPT-4, Claude, and Gemini.
-
+This is a **Streamlit web app** that benchmarks multiple Large Language Models (LLMs) — GPT-4, Claude, and Gemini.  
 It evaluates them on:
-- **Speed** (response time)
-- **Cost** (estimated token usage)
-- **Output Length** (number of words)
 
-## 🚀 How to Run Locally
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- **Speed** ⏱️ (response time)  
+- **Cost** 💰 (estimated token usage)  
+- **Output Length** 📏 (number of words)  
 
-2. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
+---
 
-3. Open the link [http://localhost:8501](http://localhost:8501) in your browser.
+## 📊 Features
+- Interactive UI built with **Streamlit**
+- Side-by-side **model performance comparison**
+- **Visual dashboards** with Pandas + Matplotlib
+- Dummy data for public demo (safe, cost-free)
+- Ready to integrate with real APIs (OpenAI, Claude, Gemini)
 
-## 🌐 How to Deploy
-- Push this repo to GitHub.
-- Deploy free on [Streamlit Cloud](https://streamlit.io/cloud).
-- Share the live demo link with recruiters.
+---
 
-## 📊 Example Output
-- Interactive table of model results
-- Bar chart comparing duration, cost, and output length
-- Sample responses for each model
+## 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- Pandas  
+- Matplotlib  
+
+---
+
+## 🚀 Run Locally
+Clone and run the app:
+```bash
+git clone https://github.com/vinny990/llm-analyzer-streamlit.git
+cd llm-analyzer-streamlit
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Open in your browser: [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 🔮 Future Enhancements
+- Connect to real LLM APIs (OpenAI, Claude, Gemini)  
+- Add response quality scoring  
+- Export PDF reports with results  
+
+---
+
+## ✨ Author
+**Vineet "Vinny" Jindal**  
+[LinkedIn](https://linkedin.com/in/vinny90) | [GitHub](https://github.com/vinny990)
