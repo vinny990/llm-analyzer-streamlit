@@ -5,16 +5,21 @@ It evaluates them on:
 
 - Speed (response time)  
 - Cost (estimated token usage)  
-- Output Length (number of words)  
+- Output length (number of words)  
+
+---
+
+## Live Demo
+👉 [View the app here](https://your-streamlit-link-here)  
+*(Replace with your Streamlit Cloud URL after deployment)*
 
 ---
 
 ## Features
-- Interactive UI built with Streamlit
-- Side-by-side model performance comparison
-- Visual dashboards with Pandas + Matplotlib
-- Dummy data for public demo (safe, cost-free)
-- Ready to integrate with real APIs (OpenAI, Claude, Gemini)
+- Interactive UI built with Streamlit  
+- Model performance comparison with tables and charts  
+- Dummy data for safe public demo (cost-free)  
+- Easily extendable to real APIs (OpenAI, Claude, Gemini)  
 
 ---
 
@@ -47,5 +52,5 @@ Open in your browser: [http://localhost:8501](http://localhost:8501)
 ---
 
 ## Author
-**Vinny Jindal**  
+**Vineet "Vinny" Jindal**  
 [LinkedIn](https://linkedin.com/in/vinny90) | [GitHub](https://github.com/vinny990)
