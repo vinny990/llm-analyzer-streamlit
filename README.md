@@ -10,8 +10,7 @@ It evaluates them on:
 ---
 
 ## Live Demo
-👉 [View the app here](https://your-streamlit-link-here)  
-*(Replace with your Streamlit Cloud URL after deployment)*
+👉 [View the app here](https://llm-analyzer-app-9pmua4hyyn87cwzwkrzz73.streamlit.app/)  
 
 ---
 
