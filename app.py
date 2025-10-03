@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(page_title="LLM Cost & Performance Analyzer", layout="wide")
 
-st.title("🤖 LLM Cost & Performance Analyzer")
+st.title("LLM Cost & Performance Analyzer")
 st.write("Compare GPT-4, Claude, and Gemini on speed, cost, and output length.")
 
 models = ["GPT-4", "Claude", "Gemini"]
@@ -28,12 +28,12 @@ if st.button("Run Analysis"):
         })
 
     df = pd.DataFrame(results)
-    st.subheader("📊 Results Table")
+    st.subheader("Results Table")
     st.dataframe(df)
 
-    st.subheader("📈 Metrics Comparison")
+    st.subheader("Metrics Comparison")
     st.bar_chart(df.set_index("Model")[["Duration (s)", "Cost ($)", "Length"]])
 
-    st.subheader("📝 Sample Responses")
+    st.subheader("Sample Responses")
     for r in results:
         st.markdown(f"**{r['Model']}**: {r['Response']}")
