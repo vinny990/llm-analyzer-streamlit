@@ -51,5 +51,5 @@ Open in your browser: [http://localhost:8501](http://localhost:8501)
 ---
 
 ## Author
-**Vineet "Vinny" Jindal**  
+**Vinny Jindal**  
 [LinkedIn](https://linkedin.com/in/vinny90) | [GitHub](https://github.com/vinny990)
